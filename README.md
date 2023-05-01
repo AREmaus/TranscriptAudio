@@ -44,6 +44,6 @@ EN: This system was built for hearing accessibility. Built in Python using the V
 <h2>Observações</h2>
 
 <ul>
-  <li>Você pode alterar a taxa de amostragem e o tamanho do buffer para capturar áudio com maior precisão. No entanto, isso pode aumentar a carga de processamento do sistema.</li>
+  <li>É possível alterar a taxa de amostragem e o tamanho do buffer para capturar áudio com maior precisão. No entanto, isso pode aumentar a carga de processamento do sistema.</li>
   <li>O script atual não lida com a interrupção do usuário. Para encerrar o script, você precisará interrompê-lo manualmente (por exemplo, pressionando Ctrl + C no terminal).</li>
 </ul>
