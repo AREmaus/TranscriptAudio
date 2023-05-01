@@ -39,7 +39,7 @@ EN: This system was built for hearing accessibility. Built in Python using the V
 
 <pre><code>python play.py</code></pre>
 
-<p>O script irá capturar áudio do microfone e imprimirá o texto reconhecido na tela.</p>
+<p>O script irá capturar áudio do microfone e imprimirá o texto reconhecido na tela. Recomendo testar com microfones de qualidade atestada e utilizá-lo próximo a fonte de áudio.</p>
 
 <h2>Observações</h2>
 
