@@ -11,7 +11,7 @@ model = vosk.Model(model_path)
 # Voce pode tentar aumentar a taxa de reconhecimento (em vosk.KaldiRecognizer) para 44kHz ou superior. Se este for o caso, lembre-se de adequar a variável rate no parâmetro de audio.open (voce pode ver estes métodos nas linhas abaixo).
 rec = vosk.KaldiRecognizer(model, 16000)
 
-# Captura de audio
+# Configuração para captura de audio
 audio = pyaudio.PyAudio()
 stream = audio.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
 
