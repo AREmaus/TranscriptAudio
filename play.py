@@ -6,19 +6,22 @@ import pyaudio
 model_path = 'C:/Users/Andre/Desktop/bibliotecas/modelsmall'
 
 model = vosk.Model(model_path)
+kHz = 16000
+tamBuffer = 8000
 
 # Taxa de reconhecimento de fala 16kHz
-# Voce pode tentar aumentar a taxa de reconhecimento (em vosk.KaldiRecognizer) para 44kHz ou superior. Se este for o caso, lembre-se de adequar a variável rate no parâmetro de audio.open (voce pode ver estes métodos nas linhas abaixo).
-rec = vosk.KaldiRecognizer(model, 16000)
+# Voce pode tentar aumentar a taxa de reconhecimento de 16kHz para 44kHz ou superior.
+# Voce pode tentar diminuir o tamanho do buffer de 8k para 2,4k.
+rec = vosk.KaldiRecognizer(model, kHz)
 
 # Configuração para captura de audio
 audio = pyaudio.PyAudio()
-stream = audio.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
+stream = audio.open(format=pyaudio.paInt16, channels=1, rate=kHz, input=True, frames_per_buffer=tamBuffer)
 
 # Loop para capturar e reconhecer a fala em tempo real
 while True:
     # Buffer de leitura do audio
-    data = stream.read(8000)
+    data = stream.read(tamBuffer)
 
     # Entrada para VOSK realizar o processamento
     if rec.AcceptWaveform(data):
