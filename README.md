@@ -37,7 +37,7 @@ EN: This system was built for hearing accessibility. Built in Python using the V
   <li>Execute o script Python:</li>
 </ol>
 
-<pre><code>python speech_recognition.py</code></pre>
+<pre><code>python play.py</code></pre>
 
 <p>O script irá capturar áudio do microfone e imprimirá o texto reconhecido na tela.</p>
 
