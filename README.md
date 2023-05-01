@@ -1,10 +1,10 @@
 # TranscriptAudio
-PTBR: Este sistema foi construído para acessibilidade auditiva. Construído em Python utilizando as bibliotecas VOSK e AudioPy<BR>
-EN: This system was built for hearing accessibility. Built in Python using the VOSK and AudioPy libraries
+PTBR: Este sistema foi construído para acessibilidade auditiva. Construído em Python utilizando as bibliotecas vosk e pyaudio<BR>
+EN: This system was built for hearing accessibility. Built in Python using the vosk and pyaudio libraries
 
 <h2>Introdução</h2>
 
-<p>Este repositório contém um script Python que utiliza a biblioteca Vosk e Pyaudio para reconhecer a fala em tempo real. O script é capaz de capturar áudio de um microfone e reconhecer a fala usando o modelo de idioma fornecido.</p>
+<p>Este repositório contém um script Python que utiliza as bibliotecas vosk e pyaudio para reconhecer a fala em tempo real. O script é capaz de capturar áudio de um microfone e reconhecer a fala usando o modelo de idioma fornecido.</p>
 
 <h2>Requisitos</h2>
 
@@ -39,7 +39,7 @@ EN: This system was built for hearing accessibility. Built in Python using the V
 
 <pre><code>python play.py</code></pre>
 
-<p>O script irá capturar áudio do microfone e imprimirá o texto reconhecido na tela. Recomendo testar com microfones de qualidade atestada e utilizá-lo próximo a fonte de áudio.</p>
+<p>O script irá capturar áudio do microfone e imprimirá o texto reconhecido na tela. Recomendo testar com microfones de qualidade atestada, e utilizá-lo próximo a fonte de áudio.</p>
 
 <h2>Observações</h2>
 
