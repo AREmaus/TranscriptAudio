@@ -17,7 +17,7 @@ EN: This system was built for hearing accessibility. Built in Python using the v
 <h2>Instalação</h2>
 
 <ol>
-  <li>Certifique-se de ter o Python 3.x instalado em sua máquina. Caso não tenha, você pode baixá-lo <a href="https://www.python.org/downloads/">aqui</a>.</li>
+  <li>Certifique-se de ter o Python 3.x instalado em sua máquina. Caso não tenha, você pode baixá-lo <a href="https://www.python.org/downloads/" target="_blank">aqui</a>.</li>
   <li>Instale a biblioteca Vosk executando o seguinte comando:</li>
 </ol>
 
@@ -46,4 +46,5 @@ EN: This system was built for hearing accessibility. Built in Python using the v
 <ul>
   <li>Se preferir é possível tentar alterar a taxa de amostragem e o tamanho do buffer para capturar áudio com maior precisão, porém é possível que isso cause custo na carga de processamento do sistema.</li>
   <li>O script atual não lida com a interrupção do usuário. Para encerrar o script, você precisará interrompê-lo manualmente (por exemplo, pressionando Ctrl + C no terminal).</li>
+  <li>O script está bem documentado com comentários internos.</li>
 </ul>
