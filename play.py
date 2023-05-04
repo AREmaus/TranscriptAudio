@@ -28,6 +28,7 @@ while True:
         # Saida do texto reconhecido
         print(rec.Result())
 
-# Finalizacao complementar disponivel (fora do loop)
+# Finalizacao complementar disponivel (fora do loop) 
+# 
 result = rec.FinalResult()
 print(result)
